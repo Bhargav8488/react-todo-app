@@ -1,0 +1,33 @@
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: white;
+  width: 100vw;
+  height: 60px;
+  user-select: none;
+  max-width: 1366px;
+  position: static;
+  top: 0;
+}
+.appTitle {
+  text-decoration: none;
+  color: black;
+}
+.appTitleText {
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 410px) {
+  .appTitleText {
+    font-size: 16px;
+    text-align: center;
+  }
+  .navbarContainer {
+    height: 80px;
+    padding: 10px;
+  }
+}
